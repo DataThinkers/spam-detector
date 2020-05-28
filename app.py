@@ -52,7 +52,7 @@ def predict():
         res_val = "** Not a Spam **"
     
 
-    return render_template('index.html', prediction_text='Flower is :: {}'.format(res_val))
+    return render_template('index.html', prediction_text='Message is :: {}'.format(res_val))
 
 
 if __name__ == "__main__":
