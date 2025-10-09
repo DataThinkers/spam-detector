@@ -1,19 +1,6 @@
-# build tools so pip can build sdists if needed
-setuptools>=72
-wheel>=0.44
+Flask==3.0.3
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+gunicorn==21.2.0
 
-
-# web server (fixes the gunicorn.six issue)
-gunicorn>=23.0.0,<24
-
-# Flask 1.x-compatible stack (matches your code style)
-Flask==1.1.4
-Werkzeug==1.0.1
-Jinja2==2.11.3
-itsdangerous==1.1.0
-MarkupSafe==1.1.1
-
-# data/ML stack with Py3.8 wheels
-numpy==1.19.5
-pandas==1.1.5
-scikit-learn==0.24.2
