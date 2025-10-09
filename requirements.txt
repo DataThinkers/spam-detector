@@ -1,6 +1,7 @@
 # build tools so pip can build sdists if needed
-setuptools>=68,<76
-wheel>=0.41
+setuptools>=72
+wheel>=0.44
+
 
 # web server (fixes the gunicorn.six issue)
 gunicorn>=23.0.0,<24
